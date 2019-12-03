@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Bitter:400,700&display=swap');
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: inherit;
+
+	font-family: 'Bitter', serif;
+	font-size: 16px;
+}
+
+html {
+	box-sizing: content-box;
+}
+
+.wrap {
+	max-width: 1400px;
+	margin: 0 auto;
+	border:2px solid green;
+
+	display: flex;
+}
+
+.left-part {
+	width: 40%;
+	background: #ddd;
+	padding: 20px;
+}
+
+.photo img {
+	border:5px solid #888;
+}
+
+.photo {
+	width: 300px;
+	margin: 0 auto 3vh;
+}
+
+.title  {
+	width: 300px;
+	margin: 0 auto 50px;
+
+	text-align: center;
+}
+
+.title h1 {
+	font-size: 24px;
+	text-transform: uppercase;
+	color: #1389bf;
+}
+
+
+
+.section {
+	margin-bottom: 50px;
+}
+
+.section__box {
+	display: flex;
+
+	margin-bottom: 20px;
+}
+
+.section-box__number {
+	padding: 10px 20px;
+	margin-right: 20px;
+
+	background: #1389bf;
+
+	color: #fff;
+	font-size: 21px;
+}
+
+.section h2 {
+	padding: 10px;
+	vertical-align: center;
+
+	font-size: 18px;
+	color: #1389bf;
+	text-transform: uppercase;
+}
+
+.section li {
+	list-style-type: none;
+}
+
+.section li:before {
+	color: #1389bf;
+	content: "•";
+	margin-right: 10px;
+}
+
+.section a {
+	text-decoration: none;
+	color: #000;
+}
+
+.section a:hover {
+	color: #1389bf;
+}
+
+.right-part {
+	width: 60%;
+	padding: 20px;
+}
+
+.section-row {
+	display: flex;
+}
