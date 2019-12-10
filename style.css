@@ -16,7 +16,8 @@ html {
 .wrap {
 	max-width: 1400px;
 	margin: 0 auto;
-	border:2px solid green;
+	/* border:2px solid green; */
+	box-shadow: 2px 2px 20px #bbb;
 
 	display: flex;
 }
@@ -28,7 +29,7 @@ html {
 }
 
 .photo img {
-	border:5px solid #888;
+	border:5px solid #1389bf;
 }
 
 .photo {
@@ -106,4 +107,12 @@ html {
 
 .section-row {
 	display: flex;
+}
+
+.project img{
+	width: 250px;
+	height: 200px;
+	margin: 10px;
+
+	border: 3px solid #1389bf;
 }
