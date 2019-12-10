@@ -109,8 +109,8 @@ html {
 	display: flex;
 }
 .project img{
-	width: 250px;
-	height: 200px;
+	width: 200px;
+	height: 150px;
 	margin: 10px;
 
 	border: 3px solid #1389bf;
