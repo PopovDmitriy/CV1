@@ -15,7 +15,7 @@ html {
 
 .wrap {
 	max-width: 1400px;
-	margin: 0 auto;
+	margin: 15px auto;
 	/* border:2px solid green; */
 	box-shadow: 2px 2px 20px #bbb;
 
@@ -107,6 +107,7 @@ html {
 
 .section-row {
 	display: flex;
+	justify-content: space-around;
 }
 .project img{
 	width: 200px;
@@ -115,3 +116,32 @@ html {
 
 	border: 3px solid #1389bf;
 }
+
+
+@media screen and (max-width: 1100px) {
+	.wrap {
+		display: flex;
+		flex-direction: column;
+		box-shadow: none;
+		margin: 0;
+	}
+
+	.left-part , .right-part  {
+		width: 100%;
+		margin: 0 auto;
+
+		/* box-shadow: 2px 2px 20px #bbb; */
+	}
+
+	.section {
+		max-width: 80%; 
+		margin: 0 auto 50px;
+	}
+}	
+
+@media screen and (max-width: 800px) {
+	.section {
+		max-width: 100%; 
+		margin: 0 auto 50px;
+	}
+}	
