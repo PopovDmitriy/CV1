@@ -106,6 +106,10 @@ html {
 	color: #1389bf;
 }
 
+.project a:hover {
+	opacity: 0.6;
+}
+
 .right-part {
 	width: 60%;
 	padding: 20px;
