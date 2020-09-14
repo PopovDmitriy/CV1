@@ -121,7 +121,7 @@ html {
 
 
 @media screen and (max-width: 1100px) {
-	* {
+	/* * {
 		font-size: 18px;
 	}
 	.wrap {
@@ -129,18 +129,22 @@ html {
 		flex-direction: column;
 		box-shadow: none;
 		margin: 0;
-	}
+	} */
 
-	.left-part , .right-part  {
+	/* .left-part , .right-part  {
 		width: 100%;
 		margin: 0 auto;
 
-		/* box-shadow: 2px 2px 20px #bbb; */
-	}
+		box-shadow: 2px 2px 20px #bbb;
+	} */
 
-	.section {
+	/* .section {
 		max-width: 90%; 
 		margin: 0 auto 50px;
+	}  */
+	.project img {
+		width: 160px;
+		height: 130px;
 	}
 }	
 
